@@ -1,0 +1,20 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+.preventSelect{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+#chatbg{
+  /* background: url('./chatbg2.jpg');
+  background-repeat: no-repeat;
+  background-position: center; */
+  /* background-size: cover; */
+  /* background-color: #F8F8F8; */
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
